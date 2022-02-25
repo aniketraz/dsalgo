@@ -7,22 +7,22 @@ int main()
     int arr[n];
     for (int i = 0; i < n; ++i)
     {
-    	cin>>arr[i];
+      cin>>arr[i];
     }
     for (int i = 0; i < n; ++i)
     {
-    	int minindex = i;
-    	for (int j = i+1; j < n; ++i)
-    	{
-    		if(arr[j]<arr[minindex]){
-    			minindex = j;
-    		}
-    	}
-    	swap(arr[i],arr[minindex]);
+      int minindex = i;
+      for (int j = i+1; j < n; ++i)
+      {
+         if(arr[j]<arr[minindex]){
+            minindex = j;
+         }
+      }
+      swap(arr[i],arr[minindex]);
     }
     for (int i = 0; i < n; ++i)
     {
-    	cout<<arr[i]<<" ";
+      cout<<arr[i]<<" ";
     }
 
 

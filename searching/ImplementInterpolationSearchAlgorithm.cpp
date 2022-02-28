@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int interpolationSearch(int array[], int start, int end, int key) {
    int dist, valRange, indexRange, estimate;

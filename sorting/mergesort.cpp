@@ -24,7 +24,7 @@ void merge(int mid, int l, int r){
 	 {
 	 	if (L[lefti]<=R[righti])
 	 	{
-	 		a[i]=L[lefti];
+	 		a[i]=L[lefti];  
 	 		lefti++;
 	 	}else{
 	 		a[i]=R[rightsize];
